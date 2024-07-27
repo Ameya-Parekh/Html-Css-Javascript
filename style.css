@@ -1,0 +1,62 @@
+*{
+    font-family:comic sans ms;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.div1{
+        text-align:center;
+    } 
+
+.div1 .search-form input{
+    font-size:0.6rem;
+    padding: 0.6rem;
+    height:40%;
+    width: 24%;
+    position: relative;
+}
+.yahoo{
+    position:absolute;
+    width:20px;
+    height:20px;
+    right: 605px;
+    top: 43px;
+
+}
+
+.div2{
+    text-align:right;
+    font-size:0.5rem;
+    margin-left: 0.5rem;
+    cursor:pointer;
+    padding:10px;
+
+}
+.div3{
+    background-color:red;
+}
+.div3 .navbar{
+    text-align:center;
+}
+.div3 .navbar a{
+    color:white;
+    display:inline-block;
+    padding:12px;
+    font-size:30px;  
+}
+.mobile {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+.mobile:hover {
+    border: 1px solid #777;
+  }
+  
+.mobile img {
+    width: 100%;
+}
+
+

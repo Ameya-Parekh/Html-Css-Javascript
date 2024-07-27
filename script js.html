@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Javascript </title>
+    <style>
+        body{
+        background-image:url('form 4.webp');
+        color:white;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: comic sans ms;
+        }
+
+        .input-control{
+            display: flex;
+            flex-direction: column;
+        }
+        .input-control input{
+            padding:10px;
+            width:30%;
+        }
+
+        </style>
+</head>
+<body>
+    <div class="container">
+        <form name="form">
+     <h1> Welcome to Login page </h1>
+     <div class="input-control">
+        <label for="First Name"> First Name </label>
+        <input id="firstname" name="firstname" type="text" required>
+        <div class="error"> </div>
+        </div>
+
+        <div class="input-control">
+            <label for="Last Name"> Last Name </label>
+            <input id="lastname" name="lastname" type="text" required>
+            <div class="error"> </div>
+            </div>
+
+        <div class="input-control">
+            <label for="password"> Password </label>
+            <input type="password" name="password" type="text" required>
+            <div class="errror"> </div>
+            </div>
+        </form>
+        </div> 
+        <script>
+            function validation(){
+                var firstname = document.form.firstname.value;
+                var lastname = document.form.lastname.value;
+                var password = document.form.password.value;
+
+                if(password == "" || password == null){
+                    alert("Please Enter Password")
+                }
+                else{
+                    alert("Logged in Successfully")
+                }
+            }
+            </script>
+            <br>
+            <input type="submit" value="Sign in" onclick="validation()"style="background-color:yellow">
+
+
+       
+</body>
+</html>
